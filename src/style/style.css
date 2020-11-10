@@ -14,8 +14,12 @@ body {
     position: fixed;
     width: 100%;
     transition: 0.3s;
-
+    transform: translateY(0);
 }
+
+.header.hidden {
+    transform: translateY(-100%);
+} 
 
 .official {
     font-size: 12px;
