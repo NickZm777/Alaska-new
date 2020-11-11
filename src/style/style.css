@@ -807,6 +807,10 @@ text-align: center;
 
 @media screen and (max-width: 550px) {
 
+    .switcher {
+        padding: 4px 10px;
+    }
+
     .official {
         font-size: 8px;
     }
